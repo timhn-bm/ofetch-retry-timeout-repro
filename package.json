@@ -1,0 +1,28 @@
+{
+  "name": "nitro-starter",
+  "type": "module",
+  "scripts": {
+    "build": "nitro build",
+    "dev": "nitro dev",
+    "preview": "nitro preview"
+  },
+  "imports": {
+    "#*": "./*"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "nitro": "latest",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": "24.16.0",
+    "pnpm": "10.33.0"
+  },
+  "volta": {
+    "node": "24.16.0",
+    "pnpm": "10.33.0"
+  },
+  "dependencies": {
+    "ofetch": "^1.5.1"
+  }
+}
